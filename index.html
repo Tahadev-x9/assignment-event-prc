@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 id="heading">
+            JavaScript Events Practice
+        </h1>
+
+        <!-- Submit Event -->
+        <form id="userForm">
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Name"
+            >
+
+            <button class="btn" type="submit">
+                Submit Form
+            </button>
+
+        </form>
+
+        <br>
+
+        <!-- Click Event -->
+        <button  class="btn" id="clickBtn">
+            Click Me
+        </button>
+
+        <br><br>
+
+        <!-- Input Event -->
+        <input
+            type="text"
+            id="liveInput"
+            placeholder="Type Something"
+        >
+
+        <p id="liveText"></p>
+
+        <br>
+
+<form id="userFirm">
+    
+        <!-- Change Event -->
+        <select id="course">
+
+            <option value="">
+                Select Course
+            </option>
+
+            <option value="JavaScript">
+                JavaScript
+            </option>
+
+            <option value="React">
+                React
+            </option>
+
+            <option value="Node JS">
+                Node JS
+            </option>
+
+        </select>
+
+        <p id="selectedCourse"></p>
+
+        <br>
+
+        <button class="btn" type="submit">
+            Submit
+        </button>
+</form>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
